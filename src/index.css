@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Avenir Next";
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: "Avenir Next" !important;
+  font-size: 16px !important;
+  color: #1e3656 !important;
+  letter-spacing: 0.2px !important;
+}
+
+h1 {
+  font-family: "Avenir Next" !important;
+  font-weight: 600 !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  letter-spacing: 0.6px !important;
+  color: #ffffff !important;
+}
+
+h2 {
+  font-family: "Avenir Next" !important;
+  font-weight: 600 !important;
+  font-size: 32px !important;
+  text-align: center !important;
+  letter-spacing: 0.4px !important;
+  color: #e43c4b !important;
+}
+
+h3 {
+  font-family: "Avenir Next" !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #272727 !important;
+}
+
+h4 {
+  font-family: "Avenir Next" !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  letter-spacing: 0.2px !important;
+  color: #413d3d !important;
+}
+
+h5 {
+  font-family: "Avenir Next" !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  letter-spacing: 0.2px !important;
+  color: #7c7c7c !important;
+}
+
+footer {
+  height: 200px;
+  background-color: #1e3656;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 18px;
+}
