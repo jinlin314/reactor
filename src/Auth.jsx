@@ -12,6 +12,15 @@ export default class Auth extends React.Component {
     }
   }
 
+  componentDidMount() {
+    document.body.style.backgroundImage = "url('img/bg.png')";
+    document.body.style.backgroundSize = "100%";
+  }
+
+  componentWillUnmount() {
+    document.body.style.backgroundImage = null;
+  }
+
   selectSignup = () => {
     this.setState({componentToRender: "signup"});
     document.getElementById("signup").classList.add('selected');
@@ -25,9 +34,10 @@ export default class Auth extends React.Component {
   };
 
   render() {
+
     return (
-      <div className="auth-container" >
-        <img src="img/onboarding-bg.png"  alt="auth background" />
+      <div className="auth-container">
+        {/*<img src="img/onboarding-bg.png"  alt="auth background" />*/}
         <div className="nav">
           <Link to="/home"><span className="logo">Reacor</span></Link>
         </div>

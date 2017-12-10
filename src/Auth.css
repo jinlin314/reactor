@@ -1,7 +1,3 @@
-.auth-container {
-    position: relative;
-}
-
 .auth-form {
     width: 100%;
     position: absolute;
@@ -32,7 +28,7 @@ input#login-email-input,
 input#login-password-input{
     display: block;
     background-color: #1e3656;
-    opacity: 0.3;
+    opacity: 0.5;
     border: none;
     width: 350px;
     height: 60px;
@@ -51,4 +47,18 @@ input#login-password-input{
     margin: 20px auto;
     color: white;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    input#signup-username-input,
+    input#signup-email-input,
+    input#signup-password-input,
+    input#login-email-input,
+    input#login-password-input {
+        width: 290px;
+    }
+
+    .auth-btn {
+        width: 290px;
+    }
 }

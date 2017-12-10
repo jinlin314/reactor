@@ -76,9 +76,21 @@ footer {
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5){
-  html, body{
-    width:100%;
-    overflow-x:hidden;
+only screen and (min-device-pixel-ratio: 1.5) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  body {
+    background-size: 200% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-size: 300% !important;
   }
 }
