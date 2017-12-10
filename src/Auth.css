@@ -1,0 +1,54 @@
+.auth-container {
+    position: relative;
+}
+
+.auth-form {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+}
+
+.auth-menu {
+    color: white;
+    font-size: 24px;
+    padding: 10px 25px;
+    opacity: 0.4;
+}
+
+.selected {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.signup-container, .login-container {
+    padding: 20px;
+}
+
+input#signup-username-input,
+input#signup-email-input,
+input#signup-password-input,
+input#login-email-input,
+input#login-password-input{
+    display: block;
+    background-color: #1e3656;
+    opacity: 0.3;
+    border: none;
+    width: 350px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 20px auto;
+    color: white;
+}
+
+.auth-btn {
+    display: block;
+    background-color: #e43c4b;
+    border: none;
+    width: 350px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 20px auto;
+    color: white;
+    padding-top: 20px;
+}

@@ -27,7 +27,7 @@ export default class Subscribe extends React.Component {
       alert("Invalid Email")
     } else {
       let form = new FormData();
-      form.append("email", "123@aol.com");
+      form.append("email", this.state.email);
 
       axios.post('http://dev3.apppartner.com/Reactors/scripts/add-email.php', form)
         .then(res => {
