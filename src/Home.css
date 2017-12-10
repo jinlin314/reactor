@@ -3,16 +3,15 @@
 }
 
 .jumbotron {
-    padding: 0 !important;
-    margin: 0 !important;
     position: relative;
+    height: 100vh;
 }
 
 .nav {
     width: 100%;
     position: absolute;
     top: 0;
-    padding: 20px 50px 0 50px;
+    padding: 35px 50px 0 50px;
 }
 
 .logo {
@@ -28,8 +27,10 @@
 }
 
 .slogan {
-    margin-top: -350px;
-    margin-bottom: 350px;
+    width: 100%;
+    position: absolute;
+    top: 40vh;
+    text-align: center;
 }
 
 .text {
@@ -75,6 +76,7 @@
 .gallery {
     text-align: center;
     padding: 70px 0;
+    margin: 0 10px;
 }
 
 .gallery-img-wrapper {
@@ -98,7 +100,7 @@
 }
 
 .email-input {
-    width: 320px;
+    width: 300px;
     height: 65px;
     border-radius: 5px;
     display: inline-block;
@@ -121,6 +123,14 @@
 }
 
 
+@media screen and (max-width: 465px) {
+    .subscribe-btn {
+        display: inline-block;
+        margin: auto;
+        margin-top: 20px
+    }
+}
+
 @media screen and (max-width: 965px) {
     .what-we-do {
         margin: 40px;
@@ -136,5 +146,4 @@
     .text {
         margin-left: 200px;
     }
-
 }

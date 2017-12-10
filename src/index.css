@@ -87,6 +87,18 @@ only screen and (min-device-pixel-ratio: 1.5) {
   body {
     background-size: 200% !important;
   }
+
+  h1 {
+    font-size: 26px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
