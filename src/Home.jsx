@@ -11,8 +11,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Grid fluid={true}>
         <Banner/>
+        <Grid fluid={true}>
           <Row className="show-grid what-we-do">
             <Col sm={12} md={6}><h2>WHAT WE DO</h2></Col>
             <Col sm={12} md={6}>
@@ -25,10 +25,10 @@ class Home extends Component {
           <Thumbnails text={text} />
           <Gallery gallery={gallery} />
           <Subscribe/>
+        </Grid>
           <footer>
             footer
           </footer>
-        </Grid>
       </div>
     );
   }
